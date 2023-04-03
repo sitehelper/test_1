@@ -16,3 +16,9 @@ get '/about' do
 
   erb :about
 end
+
+get '/test' do
+  @test_info = 'Test branch info...'
+
+  erb :test
+end
